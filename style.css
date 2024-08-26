@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.row {
+    padding-top: 34px;
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+    gap: 25px;
+    list-style: none;
+}
+
+nav {
+    height: 80px;
+}
+
+.middles {
+   display: flex;
+}
+
+ul li a {
+    text-decoration: none;
+    color:#837D88;
+    font-family: Karla;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 15.2px;
+    letter-spacing: 1.5px;
+    text-align: center;
+}
+
+header {
+     background: #2D2641;
+     height: 600px;
+}
+
+.roww {
+    display: flex;
+     justify-content: space-between;
+    
+}
+
+.lefts h2{
+    padding-top: 169px;
+    width: 540px;
+    font-family: DM Serif Display;
+    font-size: 72px;
+    font-weight: 400;
+    line-height: 64px;
+    letter-spacing: -1px;
+    text-align: left;
+    color: white;
+}
+
+.lefts p {
+    padding-top: 16px;
+    width: 540px;
+    font-family: Karla;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+    color: white;
+}
+
+
+.rights {
+    padding-top: 105px;
+    display: flex;
+}
+
+.lefts button {
+    background-color: rgba(255, 255, 255, 0);
+    border: 1.5px solid white;
+    padding: 13px 29px;
+    color: white;
+    margin-top: 24px;
+}
+
+.rowww h1 {
+    padding-top: 369px;
+    font-family: DM Serif Display;
+    font-size: 72px;
+    font-weight: 400;
+    line-height: 64px;
+    letter-spacing: -1px;
+    text-align: left;
+}
+
+.cards {
+   display: flex; 
+   gap: 30px;
+}
+
+.card img {
+    padding-top: 96px;
+}
+
+.card h2 {
+    padding-top: 32px;
+    width: 350px;
+    font-family: DM Serif Display;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 38.39px;
+    letter-spacing: -0.3888888955116272px;
+    text-align: left;
+    color: #2C2830;
+}
+
+.card p {
+    padding-top: 16px;
+    width: 350px;
+    font-family: Karla;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+    color: #837D88;
+}
+
+.main1 {
+    justify-content: center;
+    display: flex;
+}
+
+.mnn {
+    width: 1110px;
+    height: 250px;
+    background: #2D2641;
+}
+
+.rows {
+    background-image: url(./images/Group\ 6\ Copy.svg);
+    height: 250px;
+    width: 1220px;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    gap: 300px;
+    margin-top: 158px;
+}
+.rows h1 {
+    font-family: DM Serif Display;
+    font-size: 56px;
+    font-weight: 400;
+    line-height: 56px;
+    letter-spacing: -0.7777777910232544px;
+    padding: 69px 81px;
+    width: 600px;
+    color: #FFFFFF;
+}
+.row-btn button {
+    background-color: rgba(255, 255, 255, 0);
+    border: 1.5px solid white;
+    padding: 13px 29px;
+    color: white;
+    margin-top: 24px;
+}
+
+footer {
+    height: 393px;
+    padding-top: 150px;
+}
+
+.fut-nav {
+    display: flex;
+    justify-content: space-between;
+}
+.fut-1 h3 {
+    font-family: Karla;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 15.2px;
+    letter-spacing: 1.5px;
+} 
+.futs {
+    font-family: Karla;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 15.2px;
+    letter-spacing: 1.5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 80px
+}
+
